@@ -1,0 +1,16 @@
+#4-Dairenin alanını ve çevresini hesaplayan python kodunu yazınız.(Dairenin yarıçapını kullanıcıdan alınız)
+
+import math #"mat.pi" ifadesinin kullanılabilmesi için kullanılacak kütüphane
+
+#Yarıçapın girilmesi
+r =float(input("Yarıçapı giriniz: "))
+
+#Dairenin alanının hesaplanması
+daireninAlani = math.pi * r * r
+
+#Dairenin çevresinin hesaplanması
+daireninCevresi = 2 * math.pi * r
+
+#Sonucun yazdırılması
+print(f"Dairenin Alanı: {daireninAlani}")
+print(f"Dairenin Çevresi: + {daireninCevresi}")

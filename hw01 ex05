@@ -1,0 +1,16 @@
+#5-Kullanıcıdan alınan bir sayının palindrom olup olmadığını bulan bir program yazınız.
+
+#Palindrom sayı, bir sayının kendi tersi ile eşit olma durumudur.
+
+#Sayının girilmesi
+sayi = input("Lütfen bir sayi giriniz :")
+
+#Sayının tersinin alınması
+aynaSayi = sayi[::-1]
+
+if aynaSayi == sayi:
+    print("Bu bir Polindrom sayıdır")
+else:
+    print("Bu bir Polindrom sayı değildir")
+
+print()

@@ -1,0 +1,14 @@
+#1-Kullanıcının girdiği boy ve ağırlık değerlerine göre vücut kitle indeksini (VKİ = ağırlık/(boy*boy)) hesaplayınız.
+
+#Kullanıcının ağırlık ve boy bilgilerinin girilmesi
+agirlik = float (input ("Lütfen ağırlığınızı kilogram cinsinden giriniz: "))
+boy = float(input("Lütfen boyunuzu metre cinsinden giriniz: "))
+
+#Kullanıcının Vücut Kütle İndeksinin Hesaplanması
+BKİ = agirlik / (boy * boy)
+
+#BKİ değerinin string değerine dönüştürülmesi (ileride eklenecek olan birim değeriyle yazdırabilmek için)
+BKİstr = str(BKİ)
+
+#Sonucun yazdırılması
+print(BKİstr + " " + "kg/m2")

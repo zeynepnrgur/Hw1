@@ -1,0 +1,14 @@
+#2-Maaşı ve zam oranı girilen işçinin zamlı maaşını hesaplayarak ekranda gösteriniz.
+
+#Mevcut maaşın ve zam miktarının girilmesi
+mevcutMaas = float(input("Lütfen maaşınızı ₺ cinsinden giriniz: "))
+zamOranı = float(input("Lütfen güncel zam miktarını yalnızca sayıyla giriniz: "))
+
+#Eklenecek zam miktarının bulunması
+zamMiktari = mevcutMaas * (zamOranı / 100)
+
+#Mevcut maaşa zam miktarı eklenerek güncel maaşın bulunması
+sonMaas = zamMiktari + mevcutMaas
+
+#Sonucun yazdırılması
+print(sonMaas)

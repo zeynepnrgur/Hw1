@@ -1,0 +1,12 @@
+#3-Kullanıcının girdiği üç sayı arasında en büyük olanı bulan ve sonucu yazdıran bir program yazınız.
+
+#Girilecek sayıların alınması
+sayi1 = float(input("Lütfen ilk sayıyı giriniz: "))
+sayi2 = float(input("Lütfen ikinci sayıyı giriniz: "))
+sayi3 = float(input("Lütfen üçüncü sayıyı giriniz: "))
+
+#Sayıların içinden maksimum değere sahip olanın bulunması
+enBuyuk = max (sayi1, sayi2, sayi3)
+
+#Sonucun yazdırılması
+print(enBuyuk)
